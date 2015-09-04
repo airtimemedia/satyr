@@ -36,6 +36,7 @@ RPM_DIRS = --define "_sourcedir `pwd`" \
            --define "_rpmdir `pwd`/build" \
            --define "_specdir `pwd`" \
            --define "_builddir `pwd`/build" \
+           --define "_topdir `pwd`/build" \
            --define "_srcrpmdir `pwd`/build"
 
 EXTRA_DIST += satyr.spec.in
